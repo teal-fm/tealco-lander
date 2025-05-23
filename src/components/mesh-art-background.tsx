@@ -696,7 +696,7 @@ function Scene({
 }
 
 export default function MeshArtBackground({
-  imageUrl = "/canvas1.png", // Default image URL
+  imageUrl = "/canvas3.jpg", // Default image URL
   blurRadius = 30, // Layer blur radius
   samples = 25, // Layer samples
   boxBlurRadius = 4, // Post-processing gaussian blur
