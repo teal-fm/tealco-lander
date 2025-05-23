@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Link, Outlet, createRootRoute } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
+import Footer from "../components/footer";
 
 export const Route = createRootRoute({
   component: RootComponent,
@@ -18,16 +19,7 @@ function RootComponent() {
   return (
     <>
       <Outlet />
-      <footer>
-        <p>
-          Teal Computing LLC.
-          <br />
-          A Delaware limited liability company.
-          <br />
-          &copy; {new Date().getFullYear()} Teal Computing LLC. All rights
-          reserved.
-        </p>
-      </footer>
+      <Footer />
       {/* Start rendering router matches */}
       <TanStackRouterDevtools position="bottom-right" />
     </>
