@@ -19,7 +19,7 @@ function Home() {
           </h1>
         </div>
         <h3 className="text-md md:text-2xl font-normal w-max h-min">
-          interesting solutions for interesting problems
+          understated. overperforming.
         </h3>
       </div>
     </div>

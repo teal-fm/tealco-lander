@@ -5,7 +5,15 @@
 
 @theme {
     --font-display: "Baskervville", sans-serif;
-    --font-sans: "Atkinson Hyperlegible Next", sans-serif;
+    --font-sans: "Mona Sans", sans-serif;
+    --font-serif: "Baskervville", serif;
+    --font-mono: JetBrains Mono, monospace;
+}
+
+body {
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 105;
 }
 
 /*
@@ -63,9 +71,6 @@ html {
     --sidebar-accent-foreground: oklch(0.3015 0.0572 282.4176);
     --sidebar-border: oklch(0.9115 0.0216 285.9625);
     --sidebar-ring: oklch(0.5417 0.179 288.0332);
-    --font-sans: "Atkinson Hyperlegible Next", sans-serif;
-    --font-serif: "Baskervville", serif;
-    --font-mono: JetBrains Mono, monospace;
     --radius: 0.5rem;
     --shadow-2xs: 0px 4px 10px 0px hsl(240 30% 25% / 0.06);
     --shadow-xs: 0px 4px 10px 0px hsl(240 30% 25% / 0.06);
